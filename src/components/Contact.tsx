@@ -5,8 +5,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@askarasugu.dev',
-      link: 'mailto:hello@askarasugu.dev',
+      value: 'askakwambokaras@gmail.com',
+      link: 'mailto:askakwambokaras@gmail.com',
       color: 'from-red-500 to-orange-500',
     },
     {

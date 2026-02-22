@@ -5,25 +5,25 @@ const About = () => {
     {
       category: 'Frontend',
       icon: Palette,
-      technologies: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Next.js'],
+      technologies: ['React', 'Vuejs','TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Next.js'],
       color: 'from-blue-500 to-cyan-500',
     },
     {
       category: 'Backend',
       icon: Code2,
-      technologies: ['Node.js', 'Express', 'Python', 'REST APIs', 'GraphQL'],
+      technologies: ['PHP', 'Laravel', 'Node.js', 'Express', 'Python', 'REST APIs', 'GraphQL'],
       color: 'from-green-500 to-emerald-500',
     },
     {
       category: 'Database',
       icon: Database,
-      technologies: ['PostgreSQL', 'MongoDB', 'Supabase', 'SQL', 'NoSQL'],
+      technologies: ['MySQL','SQL Server','PostgreSQL', 'MongoDB', 'Supabase', 'SQL', 'NoSQL'],
       color: 'from-orange-500 to-red-500',
     },
     {
       category: 'Tools & Other',
       icon: Zap,
-      technologies: ['Git', 'Docker', 'AWS', 'Vercel', 'Linux', 'CI/CD'],
+      technologies: ['Git', 'Docker', 'AWS', 'Vercel', 'Linux', 'Nginx'],
       color: 'from-purple-500 to-pink-500',
     },
   ];
@@ -37,7 +37,7 @@ const About = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-cyan-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate full-stack developer with expertise in building modern web applications.
+            I'm a passionate full-stack software developer with expertise in building modern web applications.
             I love turning ideas into reality through clean, efficient code and intuitive user experiences.
           </p>
         </div>

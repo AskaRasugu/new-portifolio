@@ -21,7 +21,7 @@ const Home = () => {
             Aska Rasugu
           </h1>
           <p className="text-xl sm:text-2xl text-blue-200 mb-8">
-            Full Stack Developer
+            Full Stack Software Engineer
           </p>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-12">
             Crafting elegant solutions to complex problems with modern web technologies
