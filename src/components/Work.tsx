@@ -72,11 +72,11 @@ const Work = () => {
               className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative overflow-hidden aspect-video">
+              <div className="relative overflow-hidden h-40 sm:h-44 md:h-48 flex items-center justify-center bg-gray-100">
                 <img
                   src={project.image_url}
                   alt={project.title}
-                  className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                  className="max-h-full w-auto object-contain"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
